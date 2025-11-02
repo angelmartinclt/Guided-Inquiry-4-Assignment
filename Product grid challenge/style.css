@@ -1,0 +1,13 @@
+.product-grid-container{ display: grid; grid-template-columns: repeat(4,auto);
+    gap:15px; align-items: start; width:auto; justify-content: center;
+    margin: 10px; max-width: 1600px; 
+}
+
+.product{ border: 1px solid black; height: 700px; width: 380px; align-items: center; text-align: center; display: flex; flex-direction: column; font-family: Verdana, Geneva, Tahoma, sans-serif; overflow-y: auto; padding:5px; border-radius: 95px; 
+    
+}
+
+.product-image{ height: 300px; width: 300px; object-fit: contain; display: block;
+   
+}
+
