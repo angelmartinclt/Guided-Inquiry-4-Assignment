@@ -1,0 +1,30 @@
+#starsflag{ position:absolute;
+    z-index:1; width:375px; height: 252px;
+}
+
+.flagcontainer{
+    display:flex; 
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.flagTable{
+    border-collapse: collapse;
+}
+
+body{
+    display:flex; justify-content: center; align-items: center;
+}
+
+html, body{
+    height: 100%; margin: 0;
+}
+.redstripe {
+    background-color: rgb(184, 30, 30); height: 34px; width:800px;
+}
+
+.whitestripe{
+    background-color: white; height: 34px; width: 800px;
+}
